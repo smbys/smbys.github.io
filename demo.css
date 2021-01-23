@@ -1,0 +1,29 @@
+    header#home {
+        max-height: 300px;
+    }
+    .single-page-hero h1 {
+        font-weight: 100;
+        font-size: 32px;
+    }
+    .features h3 {
+        font-weight: 300
+    }
+    #home {
+        background-image: url(light/assets/images/hero-bg.jpg) !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .demo-box {
+        max-height: 380px;
+        overflow: hidden;
+    }
+    #master-wrapper {
+        margin-left: 0;
+    }
+    img.logo {
+        margin: 0 auto 30px;
+    }
+
+    .single-page-hero {
+        min-height: 400px;
+    }
