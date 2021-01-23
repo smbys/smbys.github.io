@@ -32,14 +32,13 @@
 /* OMMON
 /*-----------------------------------------------------------------------------------*/
 body {
-    font-family: 'Lato', sans-serif;
     font-size: 16px;
     line-height: 2.028571429;
     background-color: #fff;
     font-weight: 300;
     padding: 30px 30px;
     overflow-x: hidden;
-    font-family: "Anonymous Pro"
+    font-family: "Anonymous Pro",sans-serif;
 }
 
 body.borderless {
@@ -93,7 +92,7 @@ a, a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Lato',serif;
+    font-family: 'Hind',serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -591,7 +590,7 @@ span.x4:before,i.x4:before {
 }
 
 .regular-navigation .navbar-nav >li > a {
-    font-family: 'Lato';
+    font-family: 'Anonymous Pro';
     color: #333;
     font-weight: 700;
     padding: 25px 20px;
@@ -935,8 +934,8 @@ section, header#home {
 .section-title {
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 44px;
-    letter-spacing: 2px;
+    font-size: 42px;
+    letter-spacing: 7px;
     font-weight: 700;
 }
 
@@ -1534,7 +1533,7 @@ a#back-to-top.show {
     display: inline;
     position: absolute;
     color: #fff;
-    font-family: 'Lato';
+    font-family: 'Hind';
     font-size: 20px;
     text-transform: uppercase;
     line-height: 80px;
@@ -1570,14 +1569,14 @@ a#back-to-top.show {
         width: 1300px;
     }
     .pushy {
-        width: 380px;
+        width: 440px;
     }
     .pushy-right {
-        -webkit-transform: translate3d(380px,0,0);
-        -moz-transform: translate3d(380px,0,0);
-        -ms-transform: translate3d(380px,0,0);
-        -o-transform: translate3d(380px,0,0);
-        transform: translate3d(380px,0,0);
+        -webkit-transform: translate3d(440px,0,0);
+        -moz-transform: translate3d(440px,0,0);
+        -ms-transform: translate3d(440px,0,0);
+        -o-transform: translate3d(440px,0,0);
+        transform: translate3d(440px,0,0);
         right: 0;
     }
     .pushy-active .pushy-right {
