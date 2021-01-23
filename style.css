@@ -942,7 +942,7 @@ section, header#home {
 .section-sub-title {
     font-family: 'Anonymous Pro', serif;
     font-size: 16px;
-    text-transform: lowercase;
+    /* text-transform: lowercase; 小文字にする*/
     letter-spacing: 1px;
     opacity: 1;
 }
@@ -1106,12 +1106,13 @@ section, header#home {
 /*-----------------------------------------------------------------------------------*/
 /* FOOTER
 /*-----------------------------------------------------------------------------------*/
-#footer-wrapper {
+/* Fotter image 
+  #footer-wrapper {
     background-image: url(assets/images/footer-bg.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 280px;
-}
+} */ 
 
 #map-holder, #contact-holder {
     display: none;
@@ -1121,8 +1122,8 @@ section, header#home {
 }
 
 footer {
-    padding-top: 80px;
-    padding-bottom: 80px;    
+    padding-top: 10px;
+    padding-bottom: 30px;    
 }
 
 .sub-footer {
@@ -1247,7 +1248,7 @@ footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p, footer a,.
 /*-----------------------------------------------------------------------------------*/
 /*  14 - SPLASH
 /*-----------------------------------------------------------------------------------*/
-.preloader {
+/* .preloader {
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -1284,7 +1285,7 @@ footer h1,footer h2,footer h3,footer h4,footer h5,footer h6,footer p, footer a,.
     top: 120px;
     left: -27px;
 
-}
+} */
 
 /*-----------------------------------------------------------------------------------*/
 /*  RESPONSIVE
