@@ -38,7 +38,8 @@ body {
     font-weight: 300;
     padding: 30px 30px;
     overflow-x: hidden;
-    font-family: "Anonymous Pro",sans-serif;
+    font-family: "Hind",serif;
+    /* font-family: "Anonymous Pro",sans-serif; */
 }
 
 body.borderless {
