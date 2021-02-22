@@ -148,7 +148,7 @@ jQuery(document).ready(function() {
     });
   $("a[href*=#next-slide]").on("click",function(event) {
       event.preventDefault(); 
-      jQuery('#home.backstretched').data('backstretch').prev();
+      jQuery('#home.backstretched').data('backstretch').next();
   });
 
   $('.dropdown').on('show.bs.dropdown', function(e) {
