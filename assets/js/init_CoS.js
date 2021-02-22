@@ -132,7 +132,7 @@ jQuery(document).ready(function() {
     event.preventDefault();
   });
 
-  $("#home.backstretched").backstretch(["assets/images/comeonscreen/slide-1.jpeg", "assets/images/comeonscreen/slide-1.jpeg", "assets/images/comeonscreen/slide-1.jpeg" ], {
+  $("#home.backstretched").backstretch(["assets/images/comeonscreen/slide-1.png", "assets/images/comeonscreen/slide-1.png", "assets/images/comeonscreen/slide-1.png" ], {
     duration: 7000,
     fade: 500,
   });
