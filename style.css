@@ -123,6 +123,16 @@ span.x4:before,i.x4:before {
     min-height: 600px;
 }
 
+.halfheight {
+    height: calc(50vh);
+    min-height: 200px;
+}
+
+.fullwidth {
+    height: calc(100vh - 200px);
+    min-width: 200px;
+}
+
 .mb20 {
     margin-bottom: 20px;
 }
@@ -446,7 +456,16 @@ span.x4:before,i.x4:before {
 
 #home.fullheight.max-600, #home .fullheight.max-600 {
     max-height: 600px;
-} 
+}
+
+#home.fullwidth.max-1280 {
+    width: calc(100vw - 200px);
+    max-width: 1280px;
+}
+#home.halfheight {
+    height: calc(50vh);
+    max-height: 1280px;
+}
 
 .single-page-hero {
     min-height: 460px;
