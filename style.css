@@ -29,7 +29,7 @@
 }
 
 /*-----------------------------------------------------------------------------------*/
-/* OMMON
+/* COMMON
 /*-----------------------------------------------------------------------------------*/
 body {
     font-size: 16px;
@@ -198,7 +198,10 @@ span.x4:before,i.x4:before {
 }
 
 .section-inner-left-60 {
-    padding-left: 60px;
+    padding-left: 60px;    
+}
+@media screen and (max-width: 767px){
+    .section-inner-left-60{ padding-left: 5%; }
 }
 
 .vertical-align-bottom {
@@ -336,6 +339,12 @@ span.x4:before,i.x4:before {
     filter: url(grayscale.svg); /* Firefox 4+ */
     filter: gray; /* IE 6-9 */
 }
+
+/*USER*/
+.subsection {
+
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /* HOVER EFFECT
@@ -964,7 +973,10 @@ section, header#home {
     margin-top: 0;
     font-size: 42px;
     letter-spacing: 7px;
-    font-weight: 700;
+    font-weight: 700;   
+}
+@media screen and (max-width: 768px) {
+    .section-title {font-size: 36px;}
 }
 
 .section-sub-title {
