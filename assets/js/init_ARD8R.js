@@ -132,7 +132,7 @@ jQuery(document).ready(function() {
     event.preventDefault();
   });
 
-  $("#home.backstretched").backstretch(["assets/images/avatorrobotd8r/slide-1.jpeg", "assets/images/avatorrobotd8r/slide-2.jpeg",  ], {
+  $("#home.backstretched").backstretch(["assets/images/avatorrobotd8r/slide-1.jpg", "assets/images/avatorrobotd8r/slide-2.gif", "assets/images/avatorrobotd8r/slide-3.gif",  ], {
     duration: 7000,
     fade: 500,
   });
