@@ -1,438 +1,835 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="" name="description">
-    <meta content="" name="author">
-
-    <!-- Rewrite icons -->
-    <!-- <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-touch-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon-180x180.png" /> -->
+    <meta content="Hideki Shimobayashi Portfolio" name="description">
+    <meta content="Hideki Shimobayashi" name="author">
 
     <title>Hideki Shimobayashi - 下林 秀輝</title>
+
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Hind:400,500,700|Anonymous+Pro:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/pe-icons/css/pe-icon-7-stroke.css" rel="stylesheet">
-
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/css/plugins.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-
 </head>
 
-<body class="top-navigation pushy-right-side borderless">
-    
-    <nav class="pushy pushy-right">
-        <ul class="list-unstyled">
-            <!-- <li><a class="logo" href="#"><img alt="" class="logo img-responsive" src="assets/images/logo.png"></a></li> -->
-            <li class="pushy-submenu">
-                <li><a href="index.html">HOME</a></li>
-                <!-- <a class="submenu-link" href="#">Home <i class="fa fa-angle-down"></i></a>
-                <ul>
-                    <li><a href="index.html">Home Minimal</a></li>
-                    <li><a href="index-blog.html">Home Blog</a></li>
-                    <li><a href="index-agency.html">Home Agency</a></li>
-                    <li><a href="index-resume.html">Home Resume</a></li>
-                </ul> -->
-            </li>
-             <li class="pushy-submenu">
-                <a class="submenu-link" href="#">Works <i class="fa fa-angle-down"></i></a>
-                <!-- <ul>
-                  
-                  <li><a href="portfolio-grid.html">Portfolio Grid</a></li>
-                  <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
-                  <li><a href="portfolio-masonry-alt.html">Portfolio Masonry Alt</a></li>
-                  <li><a href="single-portfolio.html">Single Portfolio</a></li>
-                  <li><a href="single-portfolio-video.html">Single Portfolio Video</a></li>
-                </ul> -->
-            </li>
-            <!-- <li class="pushy-submenu">
-                <a class="submenu-link" href="#">News <i class="fa fa-angle-down"></i></a>
-                <ul>
-                  <li><a href="news-list.html">News List</a></li>
-                  <li><a href="single-post.html">Single Post</a></li>
-                  <li><a href="single-post-no-sidebar.html">Single Post No Sidebar</a></li>
-                </ul>
-            </li>
-            <li class="pushy-submenu">
-                <a class="submenu-link" href="#">Pages <i class="fa fa-angle-down"></i></a>
-                <ul>
-                  <li><a href="about-us.html">About Us</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="404.html">404</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>                  
-                </ul>
-            </li>             -->
-        </ul>
-    </nav>
-
-    <!-- Site Overlay -->
-    <div class="site-overlay"></div>
+<body class="borderless">
 
     <div id="master-wrapper">
 
-        <!-- <div class="preloader">
-        </div> -->
+        <div class="fixed-header smoothie">  
+            <div class="container-fluid special-max-width">      
+                <div class="header-content">
+                    
+                    <div class="header-profile">
+                        <a href="#home" class="profile-link smoothie">
+                            <img src="assets/images/smbys/shimobayashi.png" alt="Face" class="header-face">
+                            <h1 class="header-name">Hideki Shimobayashi</h1>           
+                        </a>
+                    </div>
 
-        <div class="nav-wrapper smoothie">  
-            <div class="nav-inner smoothie">
-                <div class="container-fluid special-max-width">      
-                    <div class="row">
-                        <div class="col-sm-3 col-xs-6">
-                            <!-- <a class="logo-light smoothie" href="index.html"><img alt="" class="logo img-responsive" src="assets/images/logo-light.png"></a> 
-                            Write logo here.<a class="logo-dark smoothie" href="index.html"><img alt="" class="logo img-responsive" Coming Soonsrc="assets/images/logo.png"></a>  -->
-                        </div>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
-                            <span class="tcon tcon-menu--minus menu-btn" aria-label="toggle menu">
-                                    <span class="tcon-menu__lines" aria-hidden="true"></span>
-                                    <span class="tcon-visuallyhidden">toggle menu</span>
-                            </span>
+                    <div class="header-nav text-right">
+                        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background-color: #333;"></span>
+                            <span class="icon-bar" style="background-color: #333;"></span>
+                            <span class="icon-bar" style="background-color: #333;"></span>
                         </button>
-                        <div class="col-sm-9 col-xs-6">
-                            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right">                               
-                                    <!-- <li>
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
-                                    </li> -->
-                                    <li class="menu-trigger-wrapper">
-                                        <button type="button" class="tcon tcon-menu--minus menu-btn" aria-label="toggle menu">
-                                                <span class="tcon-menu__lines" aria-hidden="true"></span>
-                                                <span class="tcon-visuallyhidden">toggle menu</span>
-                                        </button>
-                                        <a class="menu-label menu-btn" href="#open-pushy">Menu</a>
-                                    </li>
-                                </ul>
-                            </div>                        
+
+                        <div class="desktop-nav hidden-xs">
+                            <ul class="list-inline mb0">
+                                <li><a href="#news" class="smoothie">NEWS</a></li> 
+                                <li><a href="#projects" class="smoothie">PROJECT</a></li> 
+                                <li><a href="#publications" class="smoothie">PUBLICATION</a></li> 
+                            </ul>
                         </div>
                     </div>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav mobile-nav visible-xs">
+                        <li><a href="#news">NEWS</a></li>
+                        <li><a href="#projects">PROJECT</a></li>
+                        <li><a href="#publications">PUBLICATION</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
 
-        <section class="white-wrapper special-max-width allow-overflow">
-            <div class="section-inner drag-me-up nopaddingbottom">
+        <section id="home" class="white-wrapper special-max-width allow-overflow">
+            <div class="section-inner nopaddingbottom nopaddingtop">
                 <div class="container">
-                    <div class="row">
+                    <div class="row mb30">
                         <div class="col-sm-2 col-md-2">
-                            <div class="team-item col-md-12 match-height nopaddingleftright">
-                                <div class="hover-effect smoothie match-height">
-                                    <a href="#" class="smoothie">
-                                    <img src="assets/images/smbys/shimobayashi.png" alt="Image" class="img-responsive smoothie"></a>
+                            <div class="team-item col-md-12 nopaddingleftright">
+                                <div class="hover-effect smoothie">
+                                    <img src="assets/images/smbys/shimobayashi2024.JPG" alt="Hideki Shimobayashi" class="img-responsive smoothie" style="border-radius: 4px;">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-8 col-md-10"> 
-                            <div class="row mb60">
+                        <div class="col-sm-10 col-md-10"> 
+                            <div class="row">
                                 <div class="col-sm-12">
                                     <h3 class="section-title">Hideki Shimobayashi</h3>
-                                    <p class="section-sub-title">VR Researcher (at Japanese company), Mechanical designer, Service designer, AI engineer</p>
+                                    <p class="section-sub-title">Human Augmentation Researcher / Physical AI Engineer / Co-Creation Specialist / Maker</p>
                                 </div>
                             </div>                    
                         </div>
                     </div>
 
-                    <div class="row ">              
-                        <!-- <div class="row mb60"> -->
-                            <div class="col-sm-12 col-md-6 section-inner-left-60" data-wow-delay="0.2s">
-                                <h3 class="uppercase mb30">Profile</h3>
-                                <p>I'm a corporate researcher (specializing in virtual reality) and currently work for a Japanese company.</p>
-                                <p>Since I was in high school, I have been making robots. Especially, I'm  interested in communication robots that can interact with people.</p>
-                                <p>Recently, I have been working not only on research, but also on the creation of services related to smart cities.</p>
+                    <div class="row">              
+                        <div class="col-md-6 col-sm-12 mb40" data-wow-delay="0.2s">
+                            <h3 class="uppercase mb30">Profile</h3>
+                            <p>
+                                Hideki Shimobayashi explores the <b>Physical AI</b> frontier at the intersection of <b>HCI</b>, <b>VR</b>, <b>Haptics</b>, and <b>Robotics</b>. 
+                                He currently holds a dual role as a Ph.D. student at the <b>University of Tokyo</b> (advised by <b>Dr. Masahiko Inami</b>) and a Researcher at <b>Hitachi, Ltd.</b>
+                            </p>
+
+                            <p>
+                                At Hitachi, he bridges innovation and implementation, notably serving as the concept leader for <b>Hitachi's virtual exhibition</b> at <b>EXPO 2025 Osaka</b>. 
+                                His research evolved from <b>Brain-Machine Interface</b> studies at <b>ATR</b> to his current focus on <b>Human Augmentation</b>.
+                                His innovative work has been recognized with premier awards, including the <b>SIGGRAPH Audience Award</b>, <b>Laval Virtual Award</b>, and <b>Asia Digital Art Award</b>.
+                            </p>
+
+                            <p>
+                                Beyond research, he is a dedicated <b>"Maker"</b> at heart. 
+                                Building robots since <b>middle school</b>, he has been a regular exhibitor at <b>Maker Faire</b> since 2016, driven by the pure joy of prototyping unique interactions.
+                            </p>
+
+                            <!-- <p>
+                                Hideki Shimobayashi is a researcher navigating the intersection of <b>HCI</b>, <b>VR</b>, <b>Haptics</b>, and <b>Robotics</b>. 
+                                Exploring the convergence of cyber and physical worlds, he is positioning himself at the frontier of the emerging <b>Physical AI</b> era.
+                                He currently holds a dual role as a Researcher at <b>Hitachi, Ltd.</b> and a Ph.D. student at <b>The University of Tokyo</b> (Information Somatics Lab), working under the supervision of <b>Dr. Masahiko Inami</b>.
+                            </p>
+                            <p>
+                                At Hitachi, he bridges academic innovation with social implementation. 
+                                Most notably, he served as the concept leader for <b>Hitachi's virtual exhibition</b> at <b>EXPO 2025 Osaka</b>, supervising a new vision for citizen-participatory infrastructure maintenance.
+                            </p>
+                            <p>
+                                His research journey began with <b>Brain-Machine Interfaces (BMI)</b> at <b>ATR</b>. 
+                                Gaining deep insights into the complexities of neural decoding led him to his current focus on <b>Human Augmentation</b>—extending physical capabilities through robotic avatars. 
+                                He also co-developed a haptic technology based on <b>rotational skin shear stimulation</b> with his senior colleague. 
+                                This project evolved into the university spin-off <b>CM</b>, where he continues to provide technical support to bring haptic experiences to society.
+                                His innovative work has been recognized with premier awards, including the <b>SIGGRAPH Audience Award</b>, <b>NEDO Award</b>, and <b>Asia Digital Art Award</b>.
+                            </p>
+                            <p>
+                                Beyond his professional life, he is a dedicated <b>"Maker"</b> at heart. 
+                                Building robots since <b>middle school</b>, he has been a regular exhibitor at <b>Maker Faire</b> since 2016, driven by the pure joy of prototyping and creating unique interactions.
+                            </p>   -->
+                        </div>
+                        
+                        <div class="col-md-6 col-sm-12 mb40" data-wow-delay="0.2s">
+                            <h3 class="uppercase mb30">Technical Skills</h3>
+                            <div class="skills-container">
+                                <div class="skill-category">
+                                    <h5><i class="fa fa-graduation-cap"></i> Research Fields</h5>
+                                    <div class="tag-cloud">
+                                        <span>Human Augmentation</span>
+                                        <span>HCI</span>
+                                        <span>VR/XR</span>
+                                        <span>Robotics</span>
+                                        <span>Haptics</span>
+                                        <span>Neuroscience</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h5><i class="fa fa-briefcase"></i> Business & Leadership</h5>
+                                    <div class="tag-cloud">
+                                        <span>Co-Creation</span>
+                                        <span>Technical Direction</span>
+                                        <span>Design Thinking</span>
+                                        <span>Business Design</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h5><i class="fa fa-code"></i> Languages</h5>
+                                    <div class="tag-cloud">
+                                        <span>C/C++</span>
+                                        <span>C#</span>
+                                        <span>Python</span>
+                                        <span>MATLAB</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h5><i class="fa fa-cogs"></i> Frameworks & Engines</h5>
+                                    <div class="tag-cloud">
+                                        <span>Unreal Engine</span>
+                                        <span>Unity</span>
+                                        <span>ROS2</span>
+                                        <span>FastAPI</span>
+                                        <span>PyTorch</span>
+                                        <span>uv</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h5><i class="fa fa-wrench"></i> Design & Prototyping</h5>
+                                    <div class="tag-cloud">
+                                        <span>Rapid Prototyping</span>
+                                        <span>Vibe Coding</span>
+                                        <span>3DCAD</span>
+                                        <span>Dynamixel</span>
+                                        <span>M5Stack</span>
+                                        <span>TouchDesigner</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-sm-12 col-md-6 section-inner-left-60" data-wow-delay="0.2s">
-                                <div class="h3 uppercase mb30">My Skills</div>
-                                <div class="skill-bar">
-                                    <p>Virtual Reality <span class="pull-right small">80%</span></p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar">
-                                    <p>Rapid Prototyping <span class="pull-right small">70%</span></p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-                                    </div>
-                                </div>
-
-                                <div class="skill-bar">
-                                    <p>Service Design <span class="pull-right small">50%</span></p>
-                                    <div class="progress">
-                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        <!-- </div> -->
+                        </div>
                     </div>
+
+                    <div class="row" id="news">
+                        <div class="col-sm-12" data-wow-delay="0.2s">
+                            <h3 class="uppercase mb30">News</h3>
+                            <div class="news-container">
+                                <ul class="news-list">
+                                <li>
+                                        <span class="news-date">2025.12</span>
+                                        <span class="news-content">
+                                            Major website renewal.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2025.11</span>
+                                        <span class="news-content">
+                                            Handoid won the <b>Excellence Award</b> in the Interactive Art Division (General) at <b>Asia Digital Art Award 2025</b>.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2025.11</span>
+                                        <span class="news-content">
+                                            Handoid won the <b>NEDO Award</b> at <b>INTER BEE IGNITION x DCEXPO 2025</b>.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2025.10</span>
+                                        <span class="news-content">
+                                            Handoid was selected for the FY2025 Content Technology Innovation Program (<b>CTIP</b>) and will exhibit in DCEXPO 2025.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2025.08</span>
+                                        <span class="news-content">
+                                            Handoid won the <b>Audience Award</b> at <b>SIGGRAPH 2025 Emerging Technologies</b>.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2025.06</span>
+                                        <span class="news-content">
+                                            Handoid was accepted to <b>SIGGRAPH 2025 Emerging Technologies</b> and exhibited in Vancouver.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2025.03</span>
+                                        <span class="news-content">
+                                            A co-authored paper was accepted to Augmented Humans 2025.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2024.10</span>
+                                        <span class="news-content">
+                                            Started Ph.D. program at Inami & Monnai Laboratory, The University of Tokyo.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2023.10</span>
+                                        <span class="news-content">
+                                            Added a new page about the telepresence avatar "d8r".
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2022.03</span>
+                                        <span class="news-content">
+                                            Research conducted at ATR was published in Neuroimage.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2021.04</span>
+                                        <span class="news-content">
+                                            Joined Research & Development Group, Hitachi, Ltd.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="news-date">2021.01</span>
+                                        <span class="news-content">
+                                            Website launched.
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="our-courses" class="white-wrapper">
+        <section id="projects" class="white-wrapper">
             <div class="section-inner nopaddingbottom">
                 <div class="container">
-                    <div class="col-sm-6" data-wow-delay="0.2s">
-                        <h2 class="uppercase mb30">Works</h2>
-                    </div>
                     <div class="row">
-                        <div class="col-sm-12">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="masonry-portfolio row">
-                                         <ul class="col-sm-2 masonry-portfolio-filter mb40 list-inline vertical wow fadeIn text-right" data-wow-delay="0.2s">
-                                            <li><a class="btn btn-primary btn-transparent active" href="#" data-filter="*">All</a></li>
-                                            <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".research">Research</a></li>
-                                            <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".works">Works</a></li>
-                                            <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".products">Products</a></li>
-                                            <!-- <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".photography">Contest</a></li>
-                                            <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".video">Video</a></li> -->
-                                        </ul>
-
-                                        <div class="col-sm-10 nopaddingleftright">
-                                            <div class="masonry-portfolio-items">
-                                                <div class="row">
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 research"> <!-- SPPJ (2021) -->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/MI.jpg" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Brain Decoding</h4>
-                                                                    <span class="hover-overlay-cat">Co-Research</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="https://www.sciencedirect.com/science/article/pii/S105381192101065X" class="btn btn-primary btn-green">Journal(NeuroImage)</a>
-                                                                    <!-- <a href="assets/images/smbys/works/CMG.jpg" class="lb-link btn btn-primary btn-white">Zoom</a> -->
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 research"> <!-- SPPJ (2021) -->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/SA.jpg" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Upper Limb Redundancy Control</h4>
-                                                                    <span class="hover-overlay-cat">Research</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="SupernumararyAppendages.html" class="btn btn-primary btn-green">Details</a>
-                                                                    <!-- <a href="assets/images/smbys/works/CMG.jpg" class="lb-link btn btn-primary btn-white">Zoom</a> -->
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 research"> <!-- TC (2020) -->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/TC.gif" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Torsion Crowds</h4>
-                                                                    <span class="hover-overlay-cat">Co-Research</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="TorsionCrowds.html" class="btn btn-primary btn-green">Details</a>
-                                                                    <a href="assets/images/smbys/works/TC.gif" class="lb-link btn btn-primary btn-white">Zoom</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 products">  <!-- COS (2020) -->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/COS.png" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Come on Screen</h4>
-                                                                    <span class="hover-overlay-cat">Products</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="ComeonScreen.html" class="btn btn-primary btn-green">Details</a>
-                                                                    <!-- <a href="assets/images/smbys/works/CMG.jpg" class="lb-link btn btn-primary btn-white">Zoom</a> -->
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- <div class="col-sm-4 masonry-portfolio-item mb30 works">  Chicken (2020) 
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/giphy2.gif" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Chicken Movie</h4>
-                                                                    <span class="hover-overlay-cat">Test</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="coming-soon.html" class="btn btn-primary btn-green">Details</a>
-                                                                    <a href="assets/images/minimal-portfolio/folio-6.jpg" class="lb-link btn btn-primary btn-white">Zoom</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> -->
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 works">  <!-- BII (2019) 16:9 -->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/BII.gif" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Be in'tree'sted In</h4>
-                                                                    <span class="hover-overlay-cat">Works</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="BeIntreestedIn.html" class="btn btn-primary btn-green">Details</a>
-                                                                    <a href="assets/images/smbys/works/BII.gif" class="lb-link btn btn-primary btn-white">Zoom</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- <div class="col-sm-4 masonry-portfolio-item mb30 products">  Dakumakura  (2019)
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/CMG.jpg" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Dakumakura</h4>
-                                                                    <span class="hover-overlay-cat">Products</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="coming-soon.html" class="btn btn-primary btn-green">Details</a>
-                                                                    <a href="assets/images/smbys/works/CMG.jpg" class="lb-link btn btn-primary btn-white">Zoom</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div> -->
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 products">  <!-- BAC-VR  (2017) 16:9 -->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/BAC_VR.png" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Be a cat VR</h4>
-                                                                    <span class="hover-overlay-cat">Products</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="https://protopedia.net/prototype/216" class="btn btn-primary btn-green">Project Page</a>
-                                                                    <a href="https://youtu.be/49JVebfPCRw?t=1539" class="btn btn-primary btn-white">Youtube</a>
-                                                                    <!-- <a href="assets/images/smbys/works/BAC_VR.png" class="lb-link btn btn-primary btn-white">Zoom</a> -->
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-4 masonry-portfolio-item mb30 works">  <!-- MTAC-UN  (2016)-->
-                                                        <div class="hover-effect smoothie">
-                                                            <a href="#" class="smoothie">
-                                                            <img src="assets/images/smbys/works/UN_Tachikoma.jpg" alt="Image" class="img-responsive smoothie"></a>
-                                                            <div class="hover-overlay smoothie text-center">
-                                                                <div class="vertical-align-top">
-                                                                    <h4>Unofficial Mini Tachikoma</h4>
-                                                                    <span class="hover-overlay-cat">Fan made</span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="hover-caption dark-overlay smoothie text-center">
-                                                                <div class="vertical-align-bottom">
-                                                                    <a href="http://partmaton.org/products/tachikoma" class="btn btn-primary btn-green">Project Page</a>
-                                                                    <a href="assets/images/smbys/works/UN_Tachikoma.jpg" class="lb-link btn btn-primary btn-white">Zoom</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                        <div class="col-sm-12" data-wow-delay="0.2s">
+                            <h2 class="uppercase mb30">Projects</h2>
+                        
+                            <ul class="masonry-portfolio-filter mb40 list-inline vertical wow fadeIn text-left" data-wow-delay="0.2s">
+                                <li><a class="btn btn-primary btn-transparent active" href="#" data-filter="*">All</a></li>
+                                <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".research">Research</a></li>
+                                <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".works">Art</a></li>
+                                <li><a class="btn btn-primary btn-transparent" href="#" data-filter=".products">Product</a></li>
+                            </ul>
+                            <div class="works-list-container">
+                                        
+                                        <div class="work-item research works">
+                                            <div class="work-thumb">
+                                                <img src="assets/images/smbys/works/Handoid_rep2.jpg" alt="Handoid">
+                                            </div>
+                                            <div class="work-content">
+                                                <h4 class="work-title">Handoid: Inter-morphologic Robotic Hand Avatar</h4>
+                                                <div class="work-meta">
+                                                    <span class="work-tag">Research</span>
+                                                    <span class="work-tag">Art</span>
+                                                    <span class="work-tag">Robotics</span>
+                                                </div>
+                                                <p class="work-desc">
+                                                    An inter-morphologic avatar designed for multi-presence. It extends the user's agency by transforming the hand into a mobile robot that can navigate and interact with remote environments.    
+                                                </p>
+                                                <div class="work-links">
+                                                    <a href="https://star.rcast.u-tokyo.ac.jp/handoid/" target="_blank"><i class="fa fa-external-link"></i> Project Page </a>
+                                                    <a href="https://www.youtube.com/watch?v=cmzvXWEkABY" target="_blank"><i class="fa fa-play-circle"></i> Video</a>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                             </div>
-                        </div>
 
+                                        <div class="work-item research">
+                                            <div class="work-thumb">
+                                                <img src="assets/images/smbys/works/SA.jpg" alt="Upper Limb Redundancy Control">
+                                            </div>
+                                            <div class="work-content">
+                                                <h4 class="work-title">Shoulder Sense: Upper Limb Redundancy Control</h4>
+                                                <div class="work-meta">
+                                                    <span class="work-tag">Research</span>
+                                                    <span class="work-tag">HCI</span>
+                                                    <span class="work-tag">Robotics</span>
+                                                </div>
+                                                <p class="work-desc">
+                                                    Research on the independent control of supernumerary robotic appendages by exploiting the redundancy of human upper limb movements.
+                                                </p>
+                                                <div class="work-links">
+                                                    <a href="SupernumararyAppendages.html"><i class="fa fa-file-text-o"></i> Details</a>
+                                                    <a href="https://www.youtube.com/watch?v=5UTpDwfIn4s" target="_blank"><i class="fa fa-play-circle"></i> Video</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="work-item research">
+                                            <div class="work-thumb">
+                                                <img src="assets/images/smbys/works/TC.gif" alt="Torsion Crowds">
+                                            </div>
+                                            <div class="work-content">
+                                                <h4 class="work-title">Torsion Crowds (Co-Research)</h4>
+                                                <div class="work-meta">
+                                                    <span class="work-tag">Research</span>
+                                                    <span class="work-tag">Haptics</span>
+                                                    <span class="work-tag">HCI</span>
+                                                </div>
+                                                <p class="work-desc">
+                                                    Development of a haptic display that presents force sensations across a large area of the body using distributed skin twist stimulation.
+                                                </p>
+                                                <div class="work-links">
+                                                    <a href="TorsionCrowds.html"><i class="fa fa-file-text-o"></i> Details</a>
+                                                    <a href="https://www.youtube.com/watch?v=_Of8kp7rXnM" target="_blank"><i class="fa fa-play-circle"></i> Video</a>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="work-item research">
+                                            <div class="work-thumb">
+                                                <img src="assets/images/smbys/works/MI.jpg" alt="Brain Decoding">
+                                            </div>
+                                            <div class="work-content">
+                                                <h4 class="work-title">Brain Decoding (Co-Research)</h4>
+                                                <div class="work-meta">
+                                                    <span class="work-tag">Research</span>
+                                                    <span class="work-tag">Neuroscience</span>
+                                                </div>
+                                                <p class="work-desc">
+                                                    Research on analyzing asymmetric directed functional connectivity within the brain using fMRI data. Published in the journal <b>NeuroImage</b>.
+                                                </p>
+                                                <div class="work-links">
+                                                    <a href="https://doi.org/10.1016/j.neuroimage.2021.118794" target="_blank"><i class="fa fa-link"></i> Paper</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="collapse" id="more-projects" style="width: 100%;">
+
+                                            <div class="work-item products">
+                                                <div class="work-thumb">
+                                                    <img src="assets/images/smbys/works/COS.png" alt="Come on Screen">
+                                                </div>
+                                                <div class="work-content">
+                                                    <h4 class="work-title">Come on Screen</h4>
+                                                    <div class="work-meta">
+                                                        <span class="work-tag">Product</span>
+                                                        <span class="work-tag">Tool</span>
+                                                    </div>
+                                                    <p class="work-desc">
+                                                        An online presentation tool that synthesizes the presenter's video onto slides, enabling interactive presentations with gestures.
+                                                    </p>
+                                                    <div class="work-links">
+                                                        <a href="ComeonScreen.html"><i class="fa fa-info-circle"></i> Details</a>
+                                                        <a href="https://dendenlabo.github.io/comeonscreen-website/" target="_blank"><i class="fa fa-external-link"></i> Product Site</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="work-item works">
+                                                <div class="work-thumb">
+                                                    <img src="assets/images/smbys/works/BII.gif" alt="Be In'tree'sted In">
+                                                </div>
+                                                <div class="work-content">
+                                                    <h4 class="work-title">Be In'tree'sted In</h4>
+                                                    <div class="work-meta">
+                                                        <span class="work-tag">Art</span>
+                                                        <span class="work-tag">VR</span>
+                                                        <span class="work-tag">Haptics</span>
+                                                    </div>
+                                                    <p class="work-desc">
+                                                        A VR experience where users "become a tree." Using whole-body haptics, it simulates seasons and environmental changes as somatic sensations. Winner of the <b>Laval Virtual Award</b>.
+                                                    </p>
+                                                    <div class="work-links">
+                                                        <a href="BeIntreestedIn.html"><i class="fa fa-info-circle"></i> Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="work-item products">
+                                                <div class="work-thumb">
+                                                    <img src="assets/images/smbys/works/BAC_VR.png" alt="Be a cat VR">
+                                                </div>
+                                                <div class="work-content">
+                                                    <h4 class="work-title">Be a cat VR</h4>
+                                                    <div class="work-meta">
+                                                        <span class="work-tag">MAKER</span>
+                                                        <span class="work-tag">VR</span>
+                                                        <span class="work-tag">Robotics</span>
+                                                    </div>
+                                                    <p class="work-desc">
+                                                        A VR application that allows users to experience the world from a cat's perspective, exploring low angles and unique interactions.
+                                                    </p>
+                                                    <div class="work-links">
+                                                        <a href="https://protopedia.net/prototype/216" target="_blank"><i class="fa fa-external-link"></i> Project Page</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="work-item works">
+                                                <div class="work-thumb">
+                                                    <img src="assets/images/smbys/works/UN_Tachikoma.jpg" alt="Unofficial Mini Tachikoma">
+                                                </div>
+                                                <div class="work-content">
+                                                    <h4 class="work-title">Unofficial Mini Tachikoma</h4>
+                                                    <div class="work-meta">
+                                                        <span class="work-tag">Maker</span>
+                                                        <span class="work-tag">Robotics</span>
+                                                    </div>
+                                                    <p class="work-desc">
+                                                        A fan-made robotics project recreating the "Tachikoma" from <i>Ghost in the Shell</i> in a compact, functional form.
+                                                    </p>
+                                                    <div class="work-links">
+                                                        <a href="http://partmaton.org/products/tachikoma" target="_blank"><i class="fa fa-external-link"></i> Project Page</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div></div>
+                                        <div class="text-center mt30">
+                                        <a role="button" data-toggle="collapse" href="#more-projects" aria-expanded="false" aria-controls="more-projects" 
+                                           id="view-more-btn"
+                                           class="btn"
+                                           style="background-color: transparent; color: #50ADBB; border: 2px solid #50ADBB; padding: 10px 30px; border-radius: 30px; font-family: 'Anonymous Pro', monospace; font-weight: 700; text-transform: uppercase; transition: all 0.3s ease;">
+                                            <i class="fa fa-angle-down"></i> View All Projects
+                                        </a>
+                                    </div>
+                            
+
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="publications" class="white-wrapper">
+            <div class="section-inner nopaddingtop nopaddingbottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="uppercase mb30">Publications</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="publication-category">
+                                <h4 class="mb30"><i class="pe-7s-world"></i> International Conferences & Journals</h4>
+                                <ul class="publication-list">
+                                    <li>
+                                        <div class="pub-year">2025</div>
+                                        <div class="pub-content">
+                                            <span class="pub-authors"><b>H. Shimobayashi</b>, T. Sasaki, M. Hirose, E. Yoshida, M. Inami</span>, 
+                                            <span class="pub-title">"Handoid: Inter-morphologic Robotic Hand Avatar for Multi Presence"</span>, 
+                                            <span class="pub-venue">SIGGRAPH 2025 Emerging Technologies, Vancouver, Canada, Aug. 2025.</span>
+                                            <div class="pub-links">
+                                                <a href="https://dl.acm.org/doi/10.1145/3721257.3734035" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                                <a href="https://s2025.siggraph.org/program/emerging-technologies/" target="_blank"><i class="fa fa-external-link"></i> SIGGRAPH</a>
+                                                <span class="badge-award"><i class="fa fa-trophy"></i> Audience Award</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2025</div>
+                                        <div class="pub-content">
+                                            <span class="pub-authors">T. Sasaki, <b>H. Shimobayashi</b>, M. Hamze, M. Inami, E. Yoshida</span>, 
+                                            <span class="pub-title">"Locomotion Generation of Hand-shaped Robotic Avatar"</span>, 
+                                            <span class="pub-venue">Augmented Humans 2025 (AHs 2025), Abu Dhabi, UAE, Mar. 2025.</span>
+                                            <div class="pub-links">
+                                                <a href="https://dl.acm.org/doi/10.1145/3745900.3746081" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2022</div>
+                                        <div class="pub-content">
+                                            <span class="pub-authors">T. Ogawa, <b>H. Shimobayashi</b>, JI. Hirayama, M. Kawanabe</span>, 
+                                            <span class="pub-title">"Asymmetric directed functional connectivity within the frontoparietal motor network during motor imagery and execution"</span>, 
+                                            <span class="pub-venue">Neuroimage, Vol. 247, Feb. 2022.</span>
+                                            <div class="pub-links">
+                                                <a href="https://doi.org/10.1016/j.neuroimage.2021.118794" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2021</div>
+                                        <div class="pub-content">
+                                            <span class="pub-authors">A. Horie, Z. Kashino, <b>H. Shimobayashi</b>, M. Inami</span>, 
+                                            <span class="pub-title">"Two-dimensional moving phantom sensation created by rotational skin stretch distribution"</span>, 
+                                            <span class="pub-venue">2021 IEEE World Haptics Conference (WHC), Montreal, Canada, Aug. 2021.</span>
+                                            <div class="pub-links">
+                                                <a href="https://doi.org/10.1109/WHC49131.2021.9517252" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2021</div>
+                                        <div class="pub-content">
+                                            <span class="pub-authors"><b>H. Shimobayashi</b>, T. Sasaki, A. Horie, R. Arakawa, Z. Kashino, M. Inami</span>, 
+                                            <span class="pub-title">"Independent Control of Supernumerary Appendages Exploiting Upper Limb Redundancy"</span>, 
+                                            <span class="pub-venue">Augmented Humans 2021 (AHs 2021), Online, Feb. 2021.</span>
+                                            <div class="pub-links">
+                                                <a href="https://doi.org/10.1145/3458709.3458980" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                                <a href="SupernumararyAppendages.html"><i class="fa fa-file-text-o"></i> Project Page</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2020</div>
+                                        <div class="pub-content">
+                                            <span class="pub-authors">A. Horie, <b>H. Shimobayashi</b>, M. Inami</span>, 
+                                            <span class="pub-title">"TorsionCrowds: Multi-Points Twist Stimulation Display for Large Part of the Body"</span>, 
+                                            <span class="pub-venue">SIGGRAPH 2020 Emerging Technologies, Online, Aug. 2020.</span>
+                                            <div class="pub-links">
+                                                <a href="https://dl.acm.org/doi/10.1145/3388534.3407303" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                                <a href="TorsionCrowds.html"><i class="fa fa-file-text-o"></i> Project Page</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="publication-category mt60">
+                                <h4 class="mb30"><i class="pe-7s-monitor"></i> Exhibitions & Demos</h4>
+                                <ul class="publication-list">
+                                    <li>
+                                        <div class="pub-year">2026.03</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"Handoid"</span>, 
+                                            <span class="pub-venue">Asia Digital Art Award, Mar. 2026, Fukuoka, Japan.</span>
+                                            <span class="badge-award"><i class="fa fa-trophy"></i> Excellence Award</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2025.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"Handoid: Inter-morphologic Robotic Hand Avatar"</span>, 
+                                            <span class="pub-venue">INTER BEE IGNITION×DCEXPO 2025, Nov. 2025, Chiba, Japan.</span>
+                                            <span class="badge-award"><i class="fa fa-trophy"></i> NEDO Award</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2021.03</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"TorsionCrowds" (Co-Research)</span>, 
+                                            <span class="pub-venue">Asia Digital Art Award, Mar. 2021, Fukuoka, Japan.</span>
+                                            <span class="badge-award"><i class="fa fa-trophy"></i> Excellence Award</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2020.04</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"Be In'tree'sted In" (Invited Demo)</span>, 
+                                            <span class="pub-venue">Laval Virtual 2020, Apr. 2020, Laval, France.</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2019.08</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"Be In'tree'sted In" - きになるき</span>, 
+                                            <span class="pub-venue">International collegiate Virtual Reality Contest (IVRC), Nov. 2020, Tokyo, Japan.</span>
+                                            <span class="badge-award"><i class="fa fa-trophy"></i> Laval Virtual Prize</span>
+                                         </div>
+                                    </li>                                    
+                                </ul>
+                            </div>
+
+                                                        <div class="publication-category mt60">
+                                <h4 class="mb30"><i class="pe-7s-medal"></i> Awards & Honors</h4>
+                                <ul class="publication-list">
+                                    <li>
+                                        <div class="pub-year">2025.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">Excellence Award of Interactive Art (Handoid)</span>, 
+                                            <span class="pub-venue">Asia Digital Art Award 2025</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2025.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">NEDO Award (Handoid)</span>, 
+                                            <span class="pub-venue">INTER BEE IGNITION×DCEXPO 2025</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2025.08</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">Audience Award (Handoid)</span>, 
+                                            <span class="pub-venue">SIGGRAPH 2025 Emerging Technologies</span>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="pub-year">2020.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">Excellence Award of Entertainment (TorsionCrowds [Co-Research])</span>, 
+                                            <span class="pub-venue">Asia Digital Art Award 2020</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2019.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">Laval Virtual Prize (Be In‘tree’sted In)</span>, 
+                                            <span class="pub-venue">International collegiate Virtual Reality Contest (IVRC) 2019</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="publication-category mt60">
+                                <h4 class="mb30"><i class="pe-7s-speaker"></i> Media Coverage</h4>
+                                <ul class="publication-list">
+                                    <li>
+                                        <div class="pub-year">2025.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"Achieving Life Beyond Physical Limits" (Interview)</span>, 
+                                            <span class="pub-venue">ACM SIGGRAPH Blog</span>
+                                            <div class="pub-links">
+                                                <a href="https://blog.siggraph.org/2025/11/achieving-life-beyond-physical-limits.html/" target="_blank"><i class="fa fa-link"></i> Article</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="pub-year">2019.11</div>
+                                        <div class="pub-content">
+                                            <span class="pub-title">"第27回国際学生対抗バーチャルリアリティコンテストでLaval Virtual賞を受賞 来年4月にフランスで開催される欧州最大のVR展示会であるLaval Virtualに出展！"</span>, 
+                                            <span class="pub-venue">東京大学 先端科学技術研究センター - 先端研ニュース</span>
+                                            <div class="pub-links">
+                                                <a href="https://www.rcast.u-tokyo.ac.jp/ja/news/report/page_00029.html" target="_blank"><i class="fa fa-link"></i> Article</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="publication-category mt60">
+                                <h4 class="mb10">
+                                    <i class="pe-7s-map-marker"></i> Domestic Conferences & Journals (Selected)
+                                </h4>
+                                
+                                <div class="mb30" style="padding-left: 4px;">
+                                    <a role="button" data-toggle="collapse" href="#domestic-conf" aria-expanded="false" aria-controls="domestic-conf" 
+                                       class="btn"
+                                       style="background-color: #50ADBB; color: #fff; border: none; padding: 10px 24px; border-radius: 30px; font-family: 'Anonymous Pro', monospace; font-weight: 700; text-transform: uppercase; box-shadow: 0 4px 15px rgba(80, 173, 187, 0.35); transition: all 0.3s ease;">
+                                        <i class="fa fa-plus-circle"></i> View List (JP)
+                                    </a>
+                                </div>
+                                
+                                <div class="collapse" id="domestic-conf">
+                                    <ul class="publication-list">
+                                        <li>
+                                            <div class="pub-year">2025</div>
+                                            <div class="pub-content">
+                                                <span class="pub-authors">佐々木智也, <b>下林秀輝</b>, 廣瀬雅治, 上田陽太, 吉田英一, 稲見昌彦</span>, 
+                                                <span class="pub-title">"手型ロボットアバタを用いた多形態テレイグジスタンス"</span>, 
+                                                <span class="pub-venue">第30回 日本バーチャルリアリティ学会大会 (VRSJ 2025), 大阪, 2025年9月.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="pub-year">2025</div>
+                                            <div class="pub-content">
+                                                <span class="pub-authors">佐々木智也, <b>下林秀輝</b>, Marwan Hamze, 稲見昌彦, 吉田英一</span>, 
+                                                <span class="pub-title">"ロボットハンドによる歩行動作の生成"</span>, 
+                                                <span class="pub-venue">ロボティクス・メカトロニクス講演会2025 (ROBOMECH 2025), 2025年6月.</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="pub-year">2020</div>
+                                            <div class="pub-content">
+                                                <span class="pub-authors">堀江 新, <b>下林 秀輝</b>, 齊藤 寛人, 稲見 昌彦</span>, 
+                                                <span class="pub-title">"回転の皮膚せん断変形に基づく分布型触覚ディスプレイの設計"</span>, 
+                                                <span class="pub-venue">日本バーチャルリアリティ学会論文誌, Dec. 2020, 25 巻, 4 号, p. 402-411.</span>
+                                                <div class="pub-links">
+                                                    <a href="https://doi.org/10.18974/tvrsj.25.4_402" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="pub-year">2020</div>
+                                            <div class="pub-content">
+                                                <span class="pub-authors"><b>下林 秀輝</b>, 堀江 新, 稲見 昌彦</span>, 
+                                                <span class="pub-title">"触覚提示装置における接触状態最適化のための2軸ジンバル機構の検討"</span>, 
+                                                <span class="pub-venue">ロボティクス・メカトロニクス講演会2020 (ROBOMECH 2020), 2P1-M01, 金沢 (オンライン開催), 2020年5月.</span>
+                                                <div class="pub-links">
+                                                    <a href="https://doi.org/10.1299/jsmermd.2020.2P1-M01" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="pub-year">2020</div>
+                                            <div class="pub-content">
+                                                <span class="pub-authors">堀江 新, <b>下林 秀輝</b>, 稲見 昌彦</span>, 
+                                                <span class="pub-title">"背部への回転刺激を用いた分布型力覚ディスプレイの設計 ―刺激素子の大きさの決定―"</span>, 
+                                                <span class="pub-venue">ロボティクス・メカトロニクス講演会2020 (ROBOMECH 2020), 2A2-N17, 金沢 (オンライン開催), 2020年5月.</span>
+                                                <div class="pub-links">
+                                                    <a href="https://doi.org/10.1299/jsmermd.2020.2A2-N17" target="_blank"><i class="fa fa-link"></i> DOI</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="pub-year">2019</div>
+                                            <div class="pub-content">
+                                                <span class="pub-authors"><b>下林 秀輝</b>, 荒川 陸, 岡本 直樹, 神宮 亜良太</span>, 
+                                                <span class="pub-title">"きになるき"</span>, 
+                                                <span class="pub-venue">日本バーチャルリアリティ学会大会論文集, Sep. 2019.</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="my_affiliations" class="white-wrapper">
-            <div class="section-inner nopaddingbottom">
+        <section id="affiliations" class="white-wrapper">
+            <div class="section-inner nopaddingtop nopaddingbottom">
                 <div class="container">
-                    <h2 class="uppercase mb30">Affiliations</h2>
-                    <div class="col-sm-12">
-                        <ul>
-                            <li><h4>Hitachi Ltd., R&D Group, Center for Social Innovation (Apr. 2021 - )</h4> 
-                                <ul>
-                                    <li>Associate Researcher (Apr. 2021 - )</li>
-                                </ul>
-                            </li>
-                            <li><h4>The University of Tokyo, Information Somatics Lab. (Apr. 2019 - Mar. 2021)</h4> 
-                                <ul>
-                                    <li>Master's Student (Apr. 2019 - Mar. 2021)</li>
-                                </ul>
-                            </li>
-                            <li><h4>ATR BICR, Depertment of Dynamic Brain Imaging (Dec. 2017 - Mar. 2021)</h4> 
-                                <ul>
-                                    <li>Cooperate Intern Student (Apr. 2019 - Mar. 2021)</li>
-                                    <li>Research Assistant (Dec. 2017 - Mar. 2019)</li>
-                                </ul>
-                            </li>
-                            <li><h4>Kyoto University, Biomedical Engineering Lab. (Apr. 2018 - Mar. 2019)</h4> 
-                                <ul>
-                                    <li>Undergraduate Student (Apr. 2018 - Mar. 2019)</li>
-                                </ul>
-                            </li>
-                        </ul>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="uppercase mb30">Affiliations</h2>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </section>       
 
-        <section class="white-wrapper">
-            <div class="section-inner">
-                <div class="container">
-                        <!-- <div class="row mb60"> -->
-                        <div class="col-sm-1 text-right">
-                            <!-- Contacts : shimobayashi [at] star.rcast.u-tokyo.ac.jp  -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="affiliation-list-grouped" style="list-style: none; padding-left: 0;">
+                                
+                                <li class="mb40">
+                                    <div class="aff-group-header">
+                                        <h4 class="aff-org">Hitachi Ltd.</h4>
+                                        <div class="aff-dept">Research & Development Group</div>
+                                    </div>
+                                    <ul class="aff-roles" style="list-style: none; padding-left: 10px;">
+                                        <li>
+                                            <i class="fa fa-circle" style="color: #50ADBB; margin-right: 8px; font-size: 10px; position: relative; top: -2px;"></i>
+                                            <span class="aff-period" style="font-weight: 700; color: #333;">2025.04 - Present</span>
+                                            <span class="aff-detail">AI Researcher / Next Research</span>
+                                            <span class="badge-current">Current</span>
+                                        </li>
+                                        <li style="margin-top: 8px; color: #777;">
+                                            <i class="fa fa-circle-o" style="color: #ccc; margin-right: 8px; font-size: 10px; position: relative; top: -2px;"></i>
+                                            <span class="aff-period">2021.04 - 2025.03</span>
+                                            <span class="aff-detail">Business Researcher / Center for Social Innovation</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="mb40">
+                                    <div class="aff-group-header">
+                                        <h4 class="aff-org">The University of Tokyo</h4>
+                                        <div class="aff-dept">Information Somatics Lab. (Graduate School of Information Science and Technology)</div>
+                                    </div>
+                                    <ul class="aff-roles" style="list-style: none; padding-left: 10px;">
+                                        <li>
+                                            <i class="fa fa-circle" style="color: #50ADBB; margin-right: 8px; font-size: 10px; position: relative; top: -2px;"></i>
+                                            <span class="aff-period" style="font-weight: 700; color: #333;">2024.10 - Present</span>
+                                            <span class="aff-detail">PhD Student</span>
+                                            <span class="badge-current">Current</span>
+                                        </li>
+                                        <li style="margin-top: 8px; color: #777;">
+                                            <i class="fa fa-circle-o" style="color: #ccc; margin-right: 8px; font-size: 10px; position: relative; top: -2px;"></i>
+                                            <span class="aff-period">2019.04 - 2021.03</span>
+                                            <span class="aff-detail">Master's Student</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="mb40">
+                                    <div class="aff-group-header">
+                                        <h4 class="aff-org">ATR (Advanced Telecommunications Research Institute International)</h4>
+                                        <div class="aff-dept">Department of Dynamic Brain Imaging</div>
+                                    </div>
+                                    <ul class="aff-roles" style="list-style: none; padding-left: 10px;">
+                                        <li style="color: #777;">
+                                            <i class="fa fa-circle-o" style="color: #ccc; margin-right: 8px; font-size: 10px; position: relative; top: -2px;"></i>
+                                            <span class="aff-period">2017.12 - 2021.03</span>
+                                            <span class="aff-detail">Cooperate Intern Student, Research Assistant</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="mb40">
+                                    <div class="aff-group-header">
+                                        <h4 class="aff-org">Kyoto University</h4>
+                                        <div class="aff-dept">Biomedical Engineering Lab. (Faculty of Engineering)</div>
+                                    </div>
+                                    <ul class="aff-roles" style="list-style: none; padding-left: 10px;">
+                                        <li style="color: #777;">
+                                            <i class="fa fa-circle-o" style="color: #ccc; margin-right: 8px; font-size: 10px; position: relative; top: -2px;"></i>
+                                            <span class="aff-period">2015.04 - 2019.03</span>
+                                            <span class="aff-detail">Undergraduate Student</span>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
                         </div>
-                        <!-- <div class="col-sm-2 text-right">
-                            <h3>Previous Affiliations</h3>
-                        </div>
-                        <div class="col-md-10">
-                            <div class="row">
-                                <div class="col-md-3"><img class="img-responsive" src="assets/images/logo1.png" alt=""></div>
-                                <div class="col-md-3"><img class="img-responsive" src="assets/images/logo2.png" alt=""></div>
-                                <div class="col-md-3"><img class="img-responsive" src="assets/images/logo3.png" alt=""></div>
-                                <div class="col-md-3"><img class="img-responsive" src="assets/images/logo4.png" alt=""></div>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -440,63 +837,15 @@
 
         <footer id="footer-wrapper" class="dark-wrapper">
             <div class="container">
-                <!-- <div class="row mb90">
-                    <div class="col-md-4 col-sm-12">
-                        <div class="text-widget widget">
-                            <h4 class="widget-title mb40">Location</h4>
-                            <div class="widget-content">
-                                <p>Conveniently enhance high-quality imperatives vis-a-vis team driven technologies. Intrinsicly fashion economically sound communities rather than principle-centered deliverables. Synergistically impact.</p>
-                            </div>
-                        </div>
-                    </div>
-                    					<div class="col-md-4 col-sm-12">
-						<div class="gallery-widget widget mb40">
-							<h4 class="widget-title mb40">Gallery</h4>
-							<div class="widget-content">
-								<div class="gallery-list">
-									<a class="thumb" href="#">
-										<img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=659">
-									</a>
-									<a cla
-									<a class="thumb" href="#">
-										<img alt="" class="img-responsive" src="https://unsplash.it/300/300?image748">
-									</a>
-									<a class="thumb" href="#">
-										<img alt="" class="img-responsive" src="https://unsplash.it/300/300?image=298">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>    
-                    <div class="col-md-4 col-sm-12">
-                        <div class="mailing-widget widget">
-                            <h4 class="widget-title mb40">Mailing List</h4>
-                            <div class="content-wiget">
-                                <p class="mb40">Subscribe to our newsletter for the latest updates and offers.</p>
-                                <form action="index.html">
-                                    <div class="input-group">
-                                        <input class="form-control form-email-widget" placeholder="Email address" type="text"><span class="input-group-btn"><input class="btn btn-email" type="submit" value="✓"></span>
-                                    </div>
-                                </form>
-                                <p></p>    
-                            </div>                                
-                        </div>
-                    </div>
-                </div> -->
                 <div class="row sub-footer">                
                     <div class="col-md-1 footer-social">
-                        <a class="facebook" href="https://www.facebook.com/profile.php?id=100006609721495"><i class="fa fa-facebook"></i></a>
-                        <!-- <a class="google" href="#"><i class="fa fa-google-plus"></i></a> -->
-                        <a class="twitter" href="https://twitter.com/smbysh"><i class="fa fa-twitter"></i></a>
-                        <!-- <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a> -->
-                        <!-- <a class="blog" href="#"><i class="fa fa-rss"></i></a> -->
-                        <!-- <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>      -->
+                        <a class="twitter" href="https://twitter.com/smbysh" target="_blank"><i class="fa fa-twitter"></i></a>
                     </div>
                     <div class="col-md-7 text-left">
                         <p class="copyright"><small>Contacts : shimobayashi [at] star.rcast.u-tokyo.ac.jp </small></p>
                     </div>
                     <div class="col-md-4 text-right">
-                        <p class="copyright"><small>© 2019. Designed and Developed by <a href="http://www.distinctivethemes.com" target="_blank">Distinctive Themes</a></small></p>
+                        <p class="copyright"><small>&copy; 2025 Hideki Shimobayashi</small></p>
                     </div>
                 </div>
             </div>
@@ -504,16 +853,61 @@
 
         <a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-        <div class="top-frame"></div>
-        <div class="bottom-frame"></div>
-
-    </div>
-
-    <script src="assets/js/jquery.min.js"></script> 
+    </div><script src="assets/js/jquery.min.js"></script> 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script> 
     <script src="assets/js/plugins.js"></script> 
     <script src="assets/js/init.js"></script>
+    
+<script>
+    $(document).ready(function(){
+        // ---------------------------------------------------------
+        // 1. フィルタリング機能 + 自動オープン機能
+        // ---------------------------------------------------------
+        $('.masonry-portfolio-filter a').on('click', function(e) {
+            e.preventDefault();
+            
+            // ボタンの見た目をアクティブにする
+            $('.masonry-portfolio-filter a').removeClass('active');
+            $(this).addClass('active');
+            
+            var filterValue = $(this).attr('data-filter');
+
+            // All以外が選ばれたら、隠れているプロジェクトを強制的に開く
+            if (filterValue !== '*') {
+                $('#more-projects').collapse('show');
+            }
+
+            // フィルタリングの実行
+            if(filterValue == '*') {
+                $('.work-item').fadeIn();
+            } else {
+                $('.work-item').hide();
+                $(filterValue).fadeIn();
+            }
+        });
+
+        // ---------------------------------------------------------
+        // 2. 開閉時のボタン表記切り替え (View All <-> Close)
+        // ---------------------------------------------------------
+        $('#more-projects').on('shown.bs.collapse', function () {
+            // 開いたとき: "Close" に変更し、アイコンを上向きに
+            $('#view-more-btn').html('<i class="fa fa-angle-up"></i> Close');
+        });
+
+        $('#more-projects').on('hidden.bs.collapse', function () {
+            // 閉じたとき: "View All Projects" に戻し、アイコンを下向きに
+            $('#view-more-btn').html('<i class="fa fa-angle-down"></i> View All Projects');
+        });
+
+        // ---------------------------------------------------------
+        // 3. スマホメニュー内のリンクを押したらメニューを閉じる
+        // ---------------------------------------------------------
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    });
+    </script>
 
 </body>
 </html>
