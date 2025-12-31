@@ -982,3 +982,80 @@ h1.header-name {
         height: 100%; /* 高さ60pxを維持 */
     }
 }
+
+/* ==========================================================================
+   サブページのスライドショー修正 (位置ズレ防止・全体表示版)
+   ========================================================================== */
+
+/* 1. ヘッダーの枠 (アスペクト比 16:9 を維持) */
+#home.backstretched {
+    width: 100%;
+    height: 0 !important;
+    padding-bottom: 56.25% !important; /* 16:9比率 */
+    position: relative;
+    background-color: #fff !important; /* 余白は白 */
+    overflow: hidden; /* はみ出し防止 */
+    
+    /* PCでの最大高さ制限（必要に応じて調整） */
+    max-height: 600px;
+    min-height: 300px;
+}
+
+/* 高さ制限時の調整 (PC大画面用) */
+@media (min-width: 1200px) {
+    #home.backstretched {
+        height: 600px !important;
+        padding-bottom: 0 !important;
+    }
+}
+
+/* 2. 画像の表示設定 (JSの干渉を強制リセット) */
+.backstretch {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.backstretch img {
+    /* ★重要: JSが設定する position/top/left を全て無効化してリセット */
+    position: absolute !important;
+    top: 0 !important;     /* 上端に合わせる */
+    left: 0 !important;    /* 左端に合わせる */
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+    max-height: none !important;
+    
+    /* 画像全体を枠内に収める（トリミングなし） */
+    object-fit: contain !important; 
+    
+    /* もし「隙間なく埋めたい（上下が切れてもいい）」場合はここを cover に変更 */
+    /* object-fit: cover !important; */
+    
+    /* object-fit: cover の場合に「上を絶対に切らない」ようにするには以下を追加 */
+    /* object-position: top center !important; */
+}
+
+/* スマホでの高さ調整 */
+@media (max-width: 767px) {
+    header#home {
+        height: 300px !important; /* スマホでは少し低くする */
+    }
+}
+
+/* =========================================================================
+   TYPOGRAPHY TWEAKS (太字の視認性向上)
+   ========================================================================= */
+b, strong {
+    font-weight: 600; /* 700だと太すぎて潰れることがあるので、600でスッキリさせる */
+    color: #222;      /* 本文のグレー(#444)より濃い黒にして、明確に区別する */
+}

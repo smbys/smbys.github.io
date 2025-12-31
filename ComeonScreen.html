@@ -1,96 +1,80 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="" name="description">
-    <meta content="" name="author">
+    <meta content="Come on Screen" name="description">
+    <meta content="Hideki Shimobayashi" name="author">
 
-    <title>Hideki Shimobayashi - 下林 秀輝</title>
+    <title>Come on Screen - Hideki Shimobayashi</title>
+    
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900|Dancing+Script:400,700|Anonymous+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
+    <link href='https://fonts.googleapis.com/css?family=Hind:400,500,700|Anonymous+Pro:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/pe-icons/css/pe-icon-7-stroke.css" rel="stylesheet">
-
     <link href="assets/css/animate.css" rel="stylesheet">
     <link href="assets/css/plugins.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-
 </head>
 
-<body class="top-navigation pushy-right-side borderless">
-
-    <nav class="pushy pushy-right">
-        <ul class="list-unstyled">
-            <li class="pushy-submenu">
-                <li><a href="index.html">HOME</a></li>
-            </li>
-             <li class="pushy-submenu">
-                <a class="submenu-link" href="#">Works <i class="fa fa-angle-down"></i></a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Site Overlay -->
-    <div class="site-overlay"></div>
-
+<body class="borderless">
     <div id="master-wrapper">
-        <div class="nav-wrapper smoothie">  
-            <div class="nav-inner smoothie">
-                <div class="container-fluid special-max-width vertical-align-mid">      
-                    <div class="row ">
-                        <div class="col-sm-3 col-xs-6">
-                            <font size="5">HIDEKI SHIMOBAYASHI</font>
-                        </div>
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
-                            <span class="tcon tcon-menu--minus menu-btn" aria-label="toggle menu">
-                                    <span class="tcon-menu__lines" aria-hidden="true"></span>
-                                    <span class="tcon-visuallyhidden">toggle menu</span>
-                            </span>
+        
+        <div class="fixed-header smoothie">  
+            <div class="container-fluid special-max-width">      
+                <div class="header-content">
+                    <div class="header-profile">
+                        <a href="index.html" class="profile-link smoothie">
+                            <img src="assets/images/smbys/shimobayashi.png" alt="Face" class="header-face">
+                            <h1 class="header-name">Hideki Shimobayashi</h1>           
+                        </a>
+                    </div>
+                    <div class="header-nav text-right">
+                        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar" style="background-color: #333;"></span>
+                            <span class="icon-bar" style="background-color: #333;"></span>
+                            <span class="icon-bar" style="background-color: #333;"></span>
                         </button>
-                        <div class="col-sm-9 col-xs-6">
-                            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right">                               
-                                    <!-- <li>
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i></a>
-                                    </li> -->
-                                    <li class="menu-trigger-wrapper">
-                                        <button type="button" class="tcon tcon-menu--minus menu-btn" aria-label="toggle menu">
-                                                <span class="tcon-menu__lines" aria-hidden="true"></span>
-                                                <span class="tcon-visuallyhidden">toggle menu</span>
-                                        </button>
-                                        <a class="menu-label menu-btn" href="#open-pushy">Menu</a>
-                                    </li>
-                                </ul>
-                            </div>                        
+                        <div class="desktop-nav hidden-xs">
+                            <ul class="list-inline mb0">
+                                <li><a href="index.html#news" class="smoothie">NEWS</a></li> 
+                                <li><a href="index.html#projects" class="smoothie">PROJECT</a></li> 
+                                <li><a href="index.html#publications" class="smoothie">PUBLICATION</a></li> 
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav mobile-nav visible-xs">
+                        <li><a href="index.html#news">NEWS</a></li>
+                        <li><a href="index.html#projects">PROJECT</a></li>
+                        <li><a href="index.html#publications">PUBLICATION</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        
-        <div class="container section-inner nopaddingbottom">
-            <header id="home" class="backstretched halfheight"> <!-- Please Consider changing id -->
-                <!-- <div id="BigVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=CaKsEdaLek0', containment:'#home', autoPlay:true, mute:true, opacity:1, showControls : false, startAt: 0}"></div> -->
-                <div class="dark-overlay dark-overlay-remove-color halfheight">
-                    <div class="container-fluid halfheight special-max-width">                   
-                        <div class="vertical-center-js">
-                            <div class="row">
-                                <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
-                                    <div>
-                                        <a href=#prev-slide class="pull-left"><i class="fa fa-2x fa-long-arrow-left"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-sm-10 col-xs-12"></div>
-                                <div class="col-sm-1 hidden-xs backstrech-controls vertical-center-js">
-                                    <div>
-                                        <a href="#next-slide" class="pull-right"><i class="fa fa-2x fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
+
+        <div class="container section-inner nopaddingbottom nopaddingtop">
+            <header id="home" class="backstretched" 
+                    data-images="assets/images/works/comeonScreen/slide-1.png"
+                    style="margin-top: 100px; border-radius: 6px; overflow: hidden; position: relative;"> 
+                
+                <div class="dark-overlay dark-overlay-remove-color" 
+                     style="height: 100%; width: 100%; position: absolute; top: 0; left: 0; display: flex; align-items: center; z-index: 10; pointer-events: none;">
+                    <div class="container-fluid special-max-width" style="width: 100%;">                   
+                        <div class="row">
+                            <div class="col-xs-6 text-left">
+                                <a href="#prev-slide" style="text-decoration: none; outline: none; pointer-events: auto;"> 
+                                    <i class="fa fa-4x fa-angle-left" style="color: #50ADBB; text-shadow: none; cursor: pointer; transition: all 0.3s;"></i>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <a href="#next-slide" style="text-decoration: none; outline: none; pointer-events: auto;">
+                                    <i class="fa fa-4x fa-angle-right" style="color: #50ADBB; text-shadow: none; cursor: pointer; transition: all 0.3s;"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -98,60 +82,63 @@
             </header>
         </div>
 
-		<section class="white-wrapper special-max-width allow-overflow">
-            <div class="section-inner drag-me-up">
+        <section class="white-wrapper special-max-width allow-overflow">
+            <div class="section-inner" style="padding-top: 40px;">
                 <div class="container">
-                    <div class="row mb60">
+                    
+                    <div class="row mb30">
                         <div class="col-sm-10 col-sm-offset-1">
-                            <div class="col-sm-8">
-                                <h3 class="section-title">Come on Screen</h3>
-                            </div>
-                            <div class="col-sm-4">
-                                <p class="mt30"><a href=https://dendenlabo.github.io/comeonscreen-website/ class="btn btn-primary btn-theme page-scroll">Visit Project Page</a></p>
-                                <!-- <p class="mt30"><a href=https://www.youtube.com/watch?v=_Of8kp7rXnM class="btn btn-primary btn-theme page-scroll">View on Youtube</a></p> -->
-                            </div>
-                            
-                                    
+                            <div class="row display-flex-center-md" style="display: flex; flex-wrap: wrap; align-items: flex-end;">
+                                <div class="col-md-8 col-sm-12">
+                                    <h3 class="section-title mb20">Come on Screen</h3>
+                                </div>
+                                <div class="col-md-4 col-sm-12 text-right-md" style="padding-bottom: 20px;">
+                                    <a href="https://dendenlabo.github.io/comeonscreen-website/" target="_blank" 
+                                       class="btn" 
+                                       style="background-color: #50ADBB; color: #fff; border: none; padding: 10px 20px; margin-bottom: 10px; display: inline-block;">
+                                       <i class="fa fa-external-link"></i> Visit Project Page
+                                    </a>
+                                </div>
+                            </div>     
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
+
+                    <div class="row mb30">
                         <div class="col-sm-10 col-sm-offset-1">
-		                        <div class="row project-item wow fadeIn" data-wow-delay="0.2s">
-		                        <div class="col-sm-8">
-                                    <p> Come on Screen is a presentation support tool that allows the presenters to present with gestures by adding the presenter's capture video on the presentation slide. I originated the basic idea, and my friends and I are working together to develop it.</p>
-                                    <p> We released the major update of Come on Screen! </p>
+		                    <div class="row project-item wow fadeIn" data-wow-delay="0.2s">
+		                        <div class="col-sm-8 mb40">
+                                    <p class="lead" style="font-size: 16px; line-height: 1.8; color: #555;">
+                                        Come on Screen is a presentation support tool that allows the presenters to present with gestures by adding the presenter's capture video on the presentation slide. I originated the basic idea, and my friends and I are working together to develop it.
+                                    </p>
+                                    <p style="font-size: 16px; line-height: 1.8; color: #555;">
+                                        We released the major update of Come on Screen!
+                                    </p>
                                 </div>
 		                        <div class="col-sm-4">
-		                            <p><strong>DATE:</strong> 2020.04 - 2021.03</p>
-		                            <p><strong>WORKS AT:</strong> Dendenlab. (Maker)</p>
-                                    <p><strong>STATUS:</strong> Released the major update</p>
-		                            <p class="mb20"><strong>TAGS:</strong> Products, Tools</p>
-                                    
+                                    <div style="background: #f9f9f9; padding: 25px; border-radius: 6px; border-left: 3px solid #50ADBB;">
+                                        <div class="mb20">
+                                            <h5 style="margin: 0 0 5px 0; font-size: 12px; color: #999;">DATE</h5>
+                                            <span style="font-family: 'Anonymous Pro', monospace; font-weight: 700;">2020.04 - 2021.03</span>
+                                        </div>
+                                        <div class="mb20">
+                                            <h5 style="margin: 0 0 5px 0; font-size: 12px; color: #999;">WORKS AT</h5>
+                                            <span style="font-family: 'Anonymous Pro', monospace; font-weight: 700;">Dendenlab. (Maker)</span>
+                                        </div>
+                                        <div class="mb20">
+                                            <h5 style="margin: 0 0 5px 0; font-size: 12px; color: #999;">STATUS</h5>
+                                            <span style="font-family: 'Anonymous Pro', monospace; font-weight: 700;">Released the major update</span>
+                                        </div>
+                                        <div>
+                                            <h5 style="margin: 0 0 5px 0; font-size: 12px; color: #999;">TAGS</h5>
+                                            <span class="work-tag">Products</span>
+                                            <span class="work-tag">Tools</span>
+                                        </div>
+                                    </div>
 		                        </div>
                             </div>
-                            
                         </div>
                     </div>
-                    <!-- <div class="row">
-                        <div class="col-sm-10 col-sm-offset-1">
-                            <p><strong>PUBLICATIONS</strong></p>
-                            <ol>
-                                <li><p>A. Horie, <u>H. Shimobayashi</u>, & M. Inami, TorsionCrowds: Multi-Points Twist Stimulation Display for Large Part of the Body. In SIGGRAPH 2020 Emerging Technologies, pp. 1-2, Aug. 2020.  <a href=https://dl.acm.org/doi/abs/10.1145/3388534.3407303>https://dl.acm.org/doi/abs/10.1145/3388534.3407303</a></p></li>
-                                <li><p>堀江 新, <u>下林 秀輝</u>, 齊藤 寛人, 稲見 昌彦, 回転の皮膚せん断変形に基づく分布型触覚ディスプレイの設計, 日本バーチャルリアリティ学会論文誌, 2020, 25 巻, 4 号, p. 402-411, Dec. 2020. <a href=https://doi.org/10.18974/tvrsj.25.4_402>https://doi.org/10.18974/tvrsj.25.4_402</a>, <a href=https://www.jstage.jst.go.jp/article/tvrsj/25/4/25_402/_article/-char/ja>https://www.jstage.jst.go.jp/article/tvrsj/25/4/25_402/_article/-char/ja</a></p></li>
-                                <li><p>TBA</p></li>
-                            </ol>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-10 col-sm-offset-1">
-                            <p><strong>AWARDS</strong></p>
-                            <ol>
-                                <li><p>A. Horie, <u>H. Shimobayashi</u>. TorsionCrowds, Excellence Awards (Entertainment) in Asia Digital Art Award 2020. <a href=https://adaa.jp/ja/winners/winners2020.html>https://adaa.jp/ja/winners/winners2020.html</a></p></li>
-                            </ol>
-                        </div>
-                    </div> -->
+
                 </div>
             </div>
         </section>
@@ -160,18 +147,13 @@
             <div class="container">
                 <div class="row sub-footer">                
                     <div class="col-md-1 footer-social">
-                        <a class="facebook" href="https://www.facebook.com/profile.php?id=100006609721495"><i class="fa fa-facebook"></i></a>
-                        <!-- <a class="google" href="#"><i class="fa fa-google-plus"></i></a> -->
-                        <a class="twitter" href="https://twitter.com/smbysh"><i class="fa fa-twitter"></i></a>
-                        <!-- <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a> -->
-                        <!-- <a class="blog" href="#"><i class="fa fa-rss"></i></a> -->
-                        <!-- <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>      -->
+                        <a class="twitter" href="https://twitter.com/smbysh" target="_blank"><i class="fa fa-twitter"></i></a>
                     </div>
                     <div class="col-md-7 text-left">
-                        <p class="copyright"><small> </small></p>
+                        <p class="copyright"><small>Contacts : shimobayashi [at] star.rcast.u-tokyo.ac.jp </small></p>
                     </div>
                     <div class="col-md-4 text-right">
-                        <p class="copyright"><small>© 2019. Designed and Developed by <a href="http://www.distinctivethemes.com" target="_blank">Distinctive Themes</a></small></p>
+                        <p class="copyright"><small>&copy; 2025 Hideki Shimobayashi</small></p>
                     </div>
                 </div>
             </div>
@@ -179,17 +161,13 @@
 
         <a href="#" id="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-        <div class="top-frame"></div>
-        <div class="bottom-frame"></div>
-
     </div>
 
     <script src="assets/js/jquery.min.js"></script> 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/owl-carousel.js"></script> 
     <script src="assets/js/plugins.js"></script> 
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="assets/js/init_CoS.js"></script>  <!-- Please Consider changing backstretch -->
+    <script src="assets/js/subpage_manager.js"></script>
 
 </body>
 </html>
